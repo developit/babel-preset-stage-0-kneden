@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-stage-0-kneden",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Babel stage-0 preset, with async/await powered by kneden instead of regenerator",
   "author": "Jason Miller <jason@developit.ca>",
   "homepage": "https://github.com/developit/babel-preset-stage-0-kneden",
@@ -11,10 +11,8 @@
     "test": "echo 'sorry'; exit 0"
   },
   "dependencies": {
-    "babel-plugin-transform-async-to-generator": "^6.7.0",
-    "babel-preset-es2015": "*",
     "babel-preset-stage-0": "*",
-    "kneden": "*",
-    "modify-babel-preset": "^1.2.0"
+    "babel-plugin-async-to-promises": "*",
+    "modify-babel-preset": "^2.0.3"
   }
 }
