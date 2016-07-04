@@ -7,8 +7,12 @@
 
 ## Installation
 
+Installation requires installing two peer dependencies.
+
+While this is a little more typing up front, it means you remain in control of versioning - this preset simply combines the two versions you choose to install.
+
 ```sh
-$ npm i -S babel-preset-stage-0-kneden
+$ npm i -S babel-preset-stage-0-kneden babel-preset-stage-0 babel-plugin-async-to-promises
 ```
 
 

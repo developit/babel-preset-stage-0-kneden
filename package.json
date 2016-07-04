@@ -11,8 +11,10 @@
     "test": "echo 'sorry'; exit 0"
   },
   "dependencies": {
-    "babel-preset-stage-0": "*",
-    "babel-plugin-async-to-promises": "*",
     "modify-babel-preset": "^2.0.3"
+  },
+  "peerDependencies": {
+    "babel-preset-stage-0": "*",
+    "babel-plugin-async-to-promises": "*"
   }
 }
